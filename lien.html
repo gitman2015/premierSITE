@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- La description : phrase qui s'affiche et décrit le site dans un résultat de moteur de recherche. Cette balise, parmi d'autres sera utile au référencement naturel -->
+    <meta name="description" content="Site d'apprentissage du HTML 5 et du CSS 3 - Colombbus Suresnes 2021" />
+
+    <!-- les mots-clefs,utiles pour les  name="keywords" désuet mais utilisé pour ce cours -->
+    <meta name="keywords"
+        content="Premier site, Colombbus, Suresnes, l'agence Suresnes,lagencesuresnes, HTML 5, CSS 3, Patrick Isola, Isola, encadrant" />
+
+    <!-- l'auteur de la page -->
+    <meta name="author" content="Rachid Ouasti" />
+    <title>Liens</title>
+    <!-- à compléter, feuille de stuyle css, typo etc. -->
+
+    <!-- nous chargeons en CDN (Content Delivery Network) la typo font awesome, la version gratuite, qui comporte 1600 icônes. -->
+    <!-- FontAwesome Typos -->
+    <script src="https://kit.fontawesome.com/aad71b5bb4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- bien indenté son code c'est s'assurer de la bonne imbrication des balises et augmenter la lisibilité du code -->
+
+    <!-- en-tête de la page-->
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="logo html 5 et css 3" />
+        </div>
+        <h1>Mon premier site en HTML 5 et CSS 3</h1>
+    </header>
+    <!-- fin header-->
+
+    <!-- navigation principale -->
+    <nav>
+        <div>
+            <!-- Zone du menu des liens simples pour faire notre menu -->
+            <a href="index.html" title="HTM 5 CSS 3 - Accueil">Accueil</a>
+            <a href="texte.html" title="HTML 5 CSS 3 - Texte">Texte</a>
+            <a href="selecteur.html" title="HTML 5 CSS 3 - Sélecteur">Sélecteur</a>
+            <a href="image.html" title="HTML 5 CSS 3 - Image">Images</a>
+            <a href="position.html" title="HTML 5 CSS 3 - Position">Position</a>
+            <a href="zoning.html" title="HTML 5 CSS 3 - Zoning">Zoning</a>
+            <a href="tableau.html" title="HTML 5 CSS 3 - Tableaux">Tableau</a>
+            <a href="liste.html" title="HTML 5 CSS 3 - Liste">Listes</a>
+            <a href="lien.html" title="HTML 5 CSS 3 - Lien">Liens</a>
+            <a href="formulaire.html" title="HTML 5 CSS 3 - Formulaire">Formulaire</a>
+            <a href="multimedia.html" title="HTML 5 CSS 3 - Multimedia">Multimédia</a>
+            <a href="animation.html" title="HTML 5 CSS 3 - Animation">Animation</a>
+            <a href="recapitulatif.html" title="HTML 5 CSS 3 - Récapitulatif">Récapitulatif</a>
+            <!-- 2/ 2nd type de liens : les liens d'une page à une autre page dans le même site -->
+        </div>
+    </nav>
+    <!-- fin navigation principale-->
+
+    <!-- contenu principal -->
+    <main>
+
+
+        <h2>Les liens - <i class="fas fa-link"></i></h2>
+        <div>
+            <!--a*3-->
+            <!-- 1 premier type de liens hyper-text une ancre a/ le lien vers lancre attribut ex. "#liens"
+            b/ l'ancre du lien id="liens" -->
+            <a href="#lien">Les liens</a>
+            <a href="#menu">Un menu</a>
+            <a href="#menu-deroulant">Un menu déroulant</a>
+        </div>
+        <hr>
+
+
+        <section id="liens">
+            <h3>Les liens</h3>
+            <!-- 3/ 3e type de lien: les liens vers des sites externes -->
+            <a href="https://codepen.io/" target="_blank" title="CodePen">CodePen pour s'entraîner au code</a>
+            <a href="https://www.lemonde.fr" target="_blank" title="Le Monde">Le Monde</a>
+            <a href="docs/planning_suresnes_version1.pdf">Télécharger le planning du chantier de Suresnes</a>
+
+            <!-- sur le lien une fonction JS dans l'attribut onclick qui permet d'imprimer la fonction -->
+            <a href="#" onclick="window.print()">Imprimer la page</a>
+        </section>
+        <section id="menu">
+            <nav>
+                <!-- ul>li*4>a -->
+                <ul>
+                    <!-- on trouve fréquemment souvent en code des navigations faites avec une url, une liste non-ordonnée -->
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Parcours</a></li>
+                    <li><a href="#">Réalisations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="menu-deroulant">
+
+            <!-- EXO Faire la liste imbriquée  -->
+
+
+            <ul>
+                <li><a href="#" title="">Accueil</a></li>
+                <li><a href="#" title="">Formation</a>
+                    <ul>
+                        <li><a href="#" title="Etudiant">Etudiant</a></li>
+                        <li><a href="#" title="Emploi du temps">Emploi du temps</a></li>
+                        <li><a href="#" title="Recherche d'emploi">Recherche d'emploi</a></li>
+                        <li><a href="#" title="Documents">Documents</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" title="Informations">Informations</a></li>
+                <li><a href="#" title="Cours">Cours</a>
+                    <ul>
+                        <li><a href="#" title="Internet">Internet</a></li>
+                        <li><a href="#" title="HTML/CSS">HTML/CSS</a></li>
+                        <li><a href="#" title="CMS">CMS</a></li>
+                        <li><a href="#" title="Stats">Stats</a></li>
+                        <li><a href="#" title="Réseaux sociaux">Réseaux sociaux</a></li>
+                        <li><a href="#" title="Référencement">Référencement</a></li>
+                        <li><a href="#" title="Marketing">Marketing</a></li>
+                        <li><a href="#" title="Cahier des charges">Cahier des charges</a></li>
+                        <li><a href="#" title="Photoshop">Photoshop</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" title="Mon CV">Mon CV</a></li>
+            </ul>
+
+        </section>
+
+    </main>
+    <!-- fin main -->
+
+    <!-- pied de page -->
+    <footer>
+        <!-- ppour les caractères spéciaux nous avons besoin de les coder cf: https://dev.w3.org/html5/html-author/charref,
+        ces caractères sont des "HTML entities" 
+        -->
+        <p>&copy; L'agence Suresnes, Rachid Ouasti</p>
+    </footer>
+    <!-- fin footer -->
+
+</body>
+
+</html>
