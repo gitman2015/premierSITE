@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style Sheet</title>
+
+    <!-- style dans l'en-tête -->
+    <style>
+        body {
+            background-color: yellow;
+            /* color: white; */
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: darkorange;
+        }
+
+        ul {
+            background-color: rgb(177, 78, 23);
+        }
+
+        li {
+            background-color: #0af;
+            color: orangered;
+        }
+
+        a {
+            background-color: #fc0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS 3 - Feuille de style en cascade</h1>
+
+    <p>Il existe trois moyens de faire du style à l'aide du CSS :</p>
+
+    <!-- ul>li*3{$/} -->
+    <ul>
+        <li style="color:yellow;">1/ Le style en ligne</li>
+        <li>2/ Le style dans l'en-tête (dans la balise <code>&lt;head&gt</code></li>
+        <li>3/ Le style dans une feuille de style externe</li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repellat fuga, necessitatibus nobis labore
+        voluptatum aspernatur autem atque odio doloremque id? Quo a tempore mollitia fuga hic quas ea <a href="#"
+            target="_blank" rel="noopener noreferrer" >nobilis</a> ?</p>
+
+    <p>Liens vers <a href="https://www.google.com">Google</a></p>
+</body>
+
+</html>
