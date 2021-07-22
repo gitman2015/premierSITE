@@ -1,4 +1,56 @@
+/* Les typos Google Font utilisées dans le site */
 body {
-    background-color: blue;
-    color: yellow;
+    /*
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lemonada', cursive;
+    font-family: 'Oswald', sans-serif; */
+
+    font-family: 'Oswald', sans-serif;
+
 }
+
+
+h1 {
+    /* typo google  */
+    font-family: 'Anton', sans-serif;
+    /* taille de typo */
+    font-size: 45px;
+    /* espacement entre les lettres */
+    
+
+    letter-spacing: 1px;
+    /* couleur réf. héxadécimale */
+    color:#2980b9;
+
+}
+
+h2 {
+    font-size: 35px;
+    color: #2c3e50;
+    /* epaisseur des caractères */
+    font-weight:bolder;
+
+     /* ombre portée  une propriété qui a besoin de 1 ou plusieurs cf. :
+    https://developer.mozilla.org/fr/docs/Web/CSS/text-shadow
+    */
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+h2 i {
+    font-size: 150%;
+}
+/* taille de l'icone dans le h2 */
+h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+h4 {
+    align-content: center;
+}
+
+blockquote {
+    font-family: 'Lemonada',cursive;
+}
+
