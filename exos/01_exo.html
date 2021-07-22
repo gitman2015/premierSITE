@@ -8,14 +8,10 @@
     <title>Cascading Style Sheet</title>
 
     <!-- lien externe vers la feuille de style vers ../styles/o1_style.css -->
-    <link rel="stylesheet" href="../styles/01_style.css" />
+    <link rel="stylesheet" href="../css/01_style.css" />
     <!-- style dans l'en-tête -->
     <style>
         /* élément { propriété: valeur ; } */
-        body {
-            background-color: yellow;
-            /* color: white; */
-        }
 
         h1 {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,6 +41,7 @@
 
     <!-- ul>li*3{$/} -->
     <ul>
+        <!-- et ce style au plus proche de l'élément sera une exception  -->
         <li style="color:yellow;">1/ Le style en ligne</li>
         <li>2/ Le style dans l'en-tête (dans la balise <code>&lt;head&gt</code></li>
         <li>3/ Le style dans une feuille de style externe</li>
