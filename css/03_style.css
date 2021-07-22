@@ -1,0 +1,44 @@
+/* stylepour l'exo 3 */
+
+body {
+    /* couleur de fond de l'élément */
+    background-color: darkblue;
+
+    /* couleur de texte */
+    color: white;
+
+    /* police de caractères ici des typos sans empattements ou sans-serif ou une police bâton*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    color: lime;
+}
+
+h1 {
+    color: orange;
+ 
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+ p {
+    background-color:lightcoral;
+ }
+
+ /* pour cibler l'élément qui a l'id "travail", j'écris #travail  */
+ /* pour déclarer un id on précéde le nom de l'id du caractère # */
+ #travail {
+background-color: moccasin;
+color:black;
+ }
+
+ /* pour cibler le ou les éléments qui ont la class "vacances", j'écris .vacances */
+ .vacances {
+    font-style: italic;
+    font-weight: bold;
+    color:magenta;
+ }
