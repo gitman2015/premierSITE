@@ -14,16 +14,27 @@ body {
 h1,h2,h3 {
     text-align: center;
     color: lime;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
+    /* taille de typo, en px en unité absolue*/
     color: orange;
+    font-size: 80px;
+    text-transform: lowercase;
  
 }
 
 h2 {
+    font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
    }
+
+h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
 
  p {
     background-color:lightcoral;
