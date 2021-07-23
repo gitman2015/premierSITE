@@ -1,0 +1,32 @@
+/* feuille de style pour la page su*/
+
+body {
+    background-color: lightyellow;
+
+    background: url('../../img/concrete-texture.png');
+}
+
+nav {
+    background-color:cornflowerblue;
+}
+
+main {
+    background-color: #fff;
+    width: 1200px;
+}
+
+footer {
+    background-color:darkorange;
+}
+
+h2 {
+    background-color:lightblue;
+}
+
+article {
+    background-color: #fff;
+}
+
+footer {
+    background-color:lime;
+}
