@@ -6,8 +6,8 @@
 sinon on peut utiliser le css d'Eric Meyer qui se trouve à cette 
 adresse: https://meyerweb.com/eric/tools/css/reset/
 */
-/* l'étoile signifie tout all */
 
+/* l'étoile signifie tout all */
 * {
     box-sizing: border-box;
 }
@@ -109,11 +109,9 @@ font-family: 'Anton', sans-serif;
 font-family: 'Lemonada', cursive;
 font-family: 'Oswald', sans-serif; */
 body {
-
     font-family: 'Oswald', sans-serif;
     /* chemin depuis le fichier style.css; on sort du dossier css puisn on rentre dans le dossier img: ../ le chemin pour sortir d'un dossier */
     background-image: url('../img/concrete-texture.png');
-
 }
 
 h1 {
@@ -129,7 +127,6 @@ h1 {
     color: #2980b9;
 
     text-align: center;
-    ;
 }
 
 h2 {
@@ -159,7 +156,6 @@ h4 {
     text-align: center;
 }
 
-
 blockquote {
     font-family: 'Lemonada', cursive;
     font-size: 120%;
@@ -176,7 +172,6 @@ blockquote i {
 */
 
 /* Header dans la page index */
-
 header {
     height: 175px;
     background-color: #719bc5;
@@ -239,7 +234,6 @@ nav {
     /* une bordure en bas */
 
     text-align: center;
-
 }
 
 nav a {
@@ -272,9 +266,8 @@ nav a:hover {
 /* fin nav */
 
 /* les zones principales */
-
 main {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
 
     /* une couleur en rgba: red green blue et avec un canal "alpha", on joue sur la transparence de la couleur  */
@@ -286,6 +279,26 @@ aside {
     width: 30%;
     float: left;
     background-color: #a6d6c3;
+}
+
+#accueil {
+    height: 70%;
+    float:left;
+}
+
+section {
+    margin-top:50px;
+    padding: 20px;
+}
+
+footer {
+    height:50px;
+    margin-top:10px;
+    padding: 10px;
+    background-color: #2980b9;
+
+    text-align: center;
+    color: #fff;
 }
 
 /* la classe clear pour rétablir le flux */
