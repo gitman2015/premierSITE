@@ -161,7 +161,11 @@ p {
 }
 
 blockquote {
+<<<<<<< Updated upstream
     font-family: 'Lemonada', cursive;
+=======
+    font-family: 'Lemonada',cursive;
+>>>>>>> Stashed changes
     font-size: 80%;
 }
 
