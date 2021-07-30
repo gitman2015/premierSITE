@@ -74,17 +74,18 @@
     <!-- fin navigation principale-->
 
     <main>
-        <h2>Les listes - <i class="fas fa-list-ol"></i> </h2>
-
+        
         <section>
+            <h2>Les listes - <i class="fas fa-list-ol"></i> </h2>
             <h3>Les listes avec la balise <code>&lt;ul&gt;</code></h3>
             <h4>Les fruits que préfère Miredie</h4>
             <!--ul : unordered list ; liste non ordonnée ou liste à puces -->
-            <ul>
-                <li>Raisin</li>
-                <li>Melon</li>
-                <li>Orange</li>
-                <li>Ananas</li>
+            <ul class="fruit">
+                <!-- li : list item ; un élément de liste  -->
+                <li><i class="far fa-hand-spock"></i>Raisin</li>
+                <li><i class="far fa-hand-spock"></i>Melon</li>
+                <li><i class="far fa-hand-spock"></i>Orange</li>
+                <li><i class="far fa-hand-spock"></i>Ananas</li>
             </ul>
 
             <h3>Les listes avec la balise <code>&lt;ol&gt;</code></h3>
@@ -100,8 +101,8 @@
             <h3>Les listes imbriquées</h3>
 
             <!-- ul>li*6 -->
-            <ul>
-                <li>Afrique
+            <ul class="imbriquee">
+                <li class="affiche_ul">Afrique
                     <ul>
                         <li>Afrique du Sud</li>
                         <li>Algérie</li>
@@ -110,7 +111,7 @@
                     </ul>
 
                 </li>
-                <li>Amérique
+                <li class="affiche_ul">Amérique
                     <ul>
                         <li>Argentine</li>
                         <li>Colombie</li>
@@ -118,7 +119,7 @@
                         <li>Mexique</li>
                     </ul>
                 </li>
-                <li>Asie
+                <li class="affiche_ul">Asie
                     <ul>
                         <li>Chine</li>
                         <li>Indonésie</li>
@@ -126,7 +127,7 @@
                         <li>Japon</li>
                     </ul>
                 </li>
-                <li>Europe
+                <li class="affiche_ul">Europe
                     <ul>
                         <li>Belgique</li>
                         <li>Espagne</li>
@@ -134,7 +135,7 @@
                         <li>Italie</li>
                     </ul>
                 </li>
-                <li>Océanie
+                <li class="affiche_ul">Océanie
                     <ul>
                         <li>Australie</li>
                         <li>Fidji</li>
