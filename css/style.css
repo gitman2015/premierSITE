@@ -541,6 +541,91 @@ ol.fruit-2 {
     box-shadow: none;
 }
 
+/* la nav dans l'id menu */
+#menu nav {
+    background: transparent;
+    border: none;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+    /* width: 500px; */
+}
+
+#menu nav a {
+    padding: 10px;
+    background: #ddd;
+
+    color:grey;
+    text-decoration: none;
+ /* lent sur lé début et accèlere de plus en plus vers la fin  */
+    transition: 1s ease-in;
+}
+
+#menu nav a:hover {
+    background: #069;
+    color: #fff;
+}
+
+/* le menu déroulant  */
+
+/* la hateur de la section qui contient le menu  */
+#menu-deroulant {
+    height: 650px;
+}
+
+/* On enlève les styles que l'élément nav hérite de la nav du site  */
+#menu-deroulant nav {
+    width: 90%;
+    margin: 0 auto;
+    background:transparent;
+    border: none;
+}
+
+/* On fait flotter à gauche les li de la ul princupale  */
+#menu-deroulant nav ul li {
+    float:left;
+    list-style: none;
+    width: 20%;
+}
+
+/* les deux ul enfant la ul principale sont display none on les masque  */
+#menu-deroulant ul ul {
+    display:none;
+}
+
+/* ces deux ul ont une classe niveau 2 et sur le hover des li qui contiennent ces ul. On fait display block, on les fait réaaparaitre  */
+#menu-deroulant nav ul.niveau-1 li.sous-menu:hover ul.niveau-2 {
+    display: block;
+}
+
+#menu-deroulant nav ul li ul li {
+    border-top: 1px solid #464464;
+    width: 100%;
+}
+
+#menu-deroulant nav li {
+    background: #ccc;
+}
+
+#menu-deroulant nav li a {
+    padding: 4px 0 4px;
+    display: block;
+
+}
+
+#menu-deroulant {
+    text-align:center;
+}
+
+
+
+
 /* la classe clear pour rétablir le flux */
 .clear {
     clear: both;
