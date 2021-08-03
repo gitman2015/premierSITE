@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un formulaire</title>
+
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+
+        form {
+            /* background-color: #80bceb; */
+            padding: 20px;
+        }
+
+        .wrapper {
+            width: 900px;
+            margin: 0 auto;
+            background-color: darkblue;
+            color: white;
+        }
+
+        h1 {
+            margin: 35px auto;
+            padding: 30px;
+            width: 80%;
+            text-align:center;
+            color: darkorange;
+            background-color: darkslateblue;
+            
+            
+        }
+
+        fieldset {
+            margin: 20px;
+            border: 1px solid darkorange;
+            border-left: 10px solid darkorange;
+            border-top: none;
+            border-right: none;
+            border-bottom: none;
+            /* border-radius: 10%; */
+        }
+
+        legend {
+            font-weight: bold;
+            padding: 5px;
+            background-color: darkslateblue;
+            color: darkorange;
+        }
+
+        input {
+            margin-right: 25px;
+        }
+    </style>
+    <!-- <script src="js/monscript.js" defer></script> -->
+</head>
+
+<body>
+    
+    <section>
+        <h1>Inscrivez-vous au club tricot</h1>
+
+        <div class="wrapper">
+            <form action="inscription2.php" method="POST">
+
+                <fieldset>
+                    <legend>Identité</legend>
+                    <label for="nom">Nom *</label>
+                    <input type="text" name="nom" id="nom" placeholder="nom" required>
+                    <label for="prenom">Prénom *</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="prenom" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre adresse postale</legend>
+                    <label for="adresse">Adresse</label>
+                    <input type="text" name="adresse" id="adresse" placeholder="adresse">
+                    <label for="codepostal">code postal</label>
+                    <input type="text" name="ville" id="codepostal" placeholder="code postal">
+                    <label for="ville">ville</label>
+                    <input type="text" name="ville" id="ville" placeholder="ville">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre email</legend>
+                    <label for="email">Adresse email *</label>
+                    <input type="text" name="email" id="email" placeholder="nom" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sexe</legend>
+
+                    <!-- le name pour les boutons radio doit-être identique afin de ne pouvoir etre sélectionné qu'une seule fois  -->
+                    <label for="sexe">Homme</label>
+                    <input type="radio" name="sexe" id="homme" value="homme">
+
+                    <label for="sexe">Femme</label>
+                    <input type="radio" name="sexe" id="femme" value="femme">
+                </fieldset>
+                <fieldset>
+                    <legend>Avez-vous du matériel ?</legend>
+
+                    <label for="aiguilles">j'ai des aiguilles</label>
+                    <input type="checkbox" name="aiguilles" id="aiguilles">
+                    <label for="haine">j'ai de la haine</label>
+                    <input type="checkbox" name="haine" id="haine">
+                    <label for="rien">non je n'ai rien</label>
+                    <input type="checkbox" name="rien" id="rien">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tricotez-vous ?</legend>
+                    <label for="niveau-select">Votre usage du tricot </label>
+                    <select name="niveau" id="niveau-select">
+                        <option value="">-- Choisissez votre niveau</option>
+                        <option value="jamais">Jamais</option>
+                        <option value="semaine">Une fois par semaine</option>
+                        <option value="mois">Une fois par mois</option>
+                        <option value="annee">Une fois par an</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Votre commentaire</legend>
+                    <label for="commentaire">Votre message</label>
+                    <textarea name="commentaire" id="commentaire" cols="50" rows="5"
+                        placeholder="Dites-nous en un peu plus si vous le souhaitez..."></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inscrivez-vous en envoyant le formulaire</legend>
+                    <input type="submit" name="inscrire" value="Inscrivez-vous">
+                    <input type="reset" name="effacer" value="Effacer">
+                    <small>* obligatoire</small>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
