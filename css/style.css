@@ -269,7 +269,7 @@ nav a:hover {
 
 .active {
     background-color: #a6d6c3;
-    color:orangered;
+    color: orangered;
 }
 
 /* fin nav */
@@ -296,13 +296,13 @@ aside {
 }
 
 section {
-    margin-top:50px;
+    margin-top: 50px;
     padding: 20px;
 }
 
 footer {
-    height:50px;
-    margin-top:10px;
+    height: 50px;
+    margin-top: 10px;
     padding: 10px;
     background-color: #2980b9;
 
@@ -315,12 +315,16 @@ footer {
 /* le retourn en haut de la page  */
 
 button {
-    position: fixed; /* Le bouton est fixé */
-    bottom: 40px; /* à 40px du bas de la page */
-    right: 20px; /* et à 20px de la droite */
+    position: fixed;
+    /* Le bouton est fixé */
+    bottom: 40px;
+    /* à 40px du bas de la page */
+    right: 20px;
+    /* et à 20px de la droite */
     /* le bouton n'a pas de bordure */
     border: none;
-    background: transparent; /*  il est transparent */
+    background: transparent;
+    /*  il est transparent */
 
     font-size: 350%;
     color: #2c3e50;
@@ -334,20 +338,24 @@ button {
     background-color: orchid;
 }
 
-.selection p:first-of-type{ /* 1er enfant du type désigné */
+.selection p:first-of-type {
+    /* 1er enfant du type désigné */
     background: hotpink;
 }
 
-.selection p:last-of-type { /* dernier élément du type désigné */
+.selection p:last-of-type {
+    /* dernier élément du type désigné */
     background-color: #fff;
     width: 300px;
 }
 
-.selection h3{
-    color:red
-} 
+.selection h3 {
+    color: red
+}
 
-.selection p:nth-of-type(4), p:nth-of-type(6){ /* le énieme élément dy type désigné */
+.selection p:nth-of-type(4),
+p:nth-of-type(6) {
+    /* le énieme élément dy type désigné */
     background: black;
     color: white;
 }
@@ -358,15 +366,15 @@ button {
 }*/
 
 .selection .zone-a {
-    color:purple;
+    color: purple;
 }
 
 .selection .zone-b {
-    color:royalblue;
+    color: royalblue;
 }
 
 .selection div:not(.zone-b) {
-    background-color:yellow;
+    background-color: yellow;
     font-size: 68px;
 }
 
@@ -394,13 +402,13 @@ button {
     margin: 200px auto 250px auto;
     padding: 20px;
 
-    background: rgba(255,255,255,0.60);
+    background: rgba(255, 255, 255, 0.60);
     border-radius: 10px;
     font-size: 120%;
 }
 
 /* On ne cible que cette image, on la trouve par son chemin dans le fichier html */
-img[src="img/toureiffel.jpg"]{
+img[src="img/toureiffel.jpg"] {
     /* je change la nature de l'élément inline en block pour lui appliquer la margin automatique */
     display: block;
     padding: 20px;
@@ -415,7 +423,7 @@ img[src="img/toureiffel.jpg"]{
 .img-golden {
     margin: 20px;
     border: 5px solid #fff;
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     transition: 1s;
 }
 
@@ -429,7 +437,8 @@ img[src="img/toureiffel.jpg"]{
     transform: rotate(-360deg);
 }
 
-.tableau table, .tableau td {
+.tableau table,
+.tableau td {
     border: 2px solid #205D67;
 }
 
@@ -441,7 +450,7 @@ img[src="img/toureiffel.jpg"]{
 }
 
 .tableau td {
-    padding:10px;
+    padding: 10px;
     text-align: left;
     vertical-align: middle;
 }
@@ -483,6 +492,7 @@ li .far:hover {
     font-size: 150%;
     color: blue;
 }
+
 ol.fruit-2 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -490,7 +500,8 @@ ol.fruit-2 {
 
 }
 
-.imbriquee, .imbriquee ul {
+.imbriquee,
+.imbriquee ul {
     padding-left: 40px;
 }
 
@@ -561,9 +572,9 @@ ol.fruit-2 {
     padding: 10px;
     background: #ddd;
 
-    color:grey;
+    color: grey;
     text-decoration: none;
- /* lent sur lé début et accèlere de plus en plus vers la fin  */
+    /* lent sur lé début et accèlere de plus en plus vers la fin  */
     transition: 1s ease-in;
 }
 
@@ -583,20 +594,20 @@ ol.fruit-2 {
 #menu-deroulant nav {
     width: 90%;
     margin: 0 auto;
-    background:transparent;
+    background: transparent;
     border: none;
 }
 
 /* On fait flotter à gauche les li de la ul princupale  */
 #menu-deroulant nav ul li {
-    float:left;
+    float: left;
     list-style: none;
     width: 20%;
 }
 
 /* les deux ul enfant la ul principale sont display none on les masque  */
 #menu-deroulant ul ul {
-    display:none;
+    display: none;
 }
 
 /* ces deux ul ont une classe niveau 2 et sur le hover des li qui contiennent ces ul. On fait display block, on les fait réaaparaitre  */
@@ -620,7 +631,7 @@ ol.fruit-2 {
 }
 
 #menu-deroulant {
-    text-align:center;
+    text-align: center;
 }
 
 
@@ -628,7 +639,7 @@ ol.fruit-2 {
 form {
     width: 80%;
     margin: 0 auto;
-    padding:20px 0 20px 50px;
+    padding: 20px 0 20px 50px;
 
 
     background: #80bceb;
@@ -639,8 +650,72 @@ textarea {
     resize: none;
 }
 
+
 label {
     margin: 20px 10px;
+}
+
+/* page multimedia  */
+
+/* pour la vidéo youtube  */
+
+iframe[src="https://www.youtube-nocookie.com/embed/nkj4RCcR0CY"] {
+    width: 100%;
+}
+
+/* pour les iframe  */
+iframe[allowfullscreen] {
+    width: 100%;
+}
+
+.bordure {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 10px solid rgb(235, 95, 76);
+}
+
+/* pour la vidéo de fond  */
+
+/* réglage de la section  */
+.video-fond {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.video-fond video {
+    position: absolute;
+    /* margin: 0 auto; */
+    width: 80%;
+    /* l'empilement de z-index: le 1 est le niveau le plus bas dans l'ordre d'empilement : le z-order */
+    z-index: 1;
+
+}
+
+.video-texte {
+    /* la positon relative permet de décaler un élément par rapport à sa position normale  */
+    position: relative;
+    width: 100%;
+    height:500px;
+    /* border:blueviolet 10px solid; */
+}
+
+.video-fond p {
+    position: absolute;
+    z-index: 2;
+
+    width: 500px;
+    margin: auto;
+    left:250px;
+    top: 150px;
+    padding: 20px;
+    border-radius: 15px;
+
+
+    background: rgba(255,255,255,0.60);
+
+    font-size: 120%;
+    text-align: center;
 }
 
 /* la classe clear pour rétablir le flux */
