@@ -1,0 +1,45 @@
+/* 5eme zoning  */
+
+body {
+    background-color: white;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+main {
+    width: 1200px;
+    margin:0 auto;
+    background-color: #fff;
+}
+
+header {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #ff69b4;
+
+}
+
+aside {
+    float: left;
+    width: 200px;
+    background-color: #808000;
+    min-height: 600px;
+}
+
+section {
+    float: left;
+    width: 800px;
+    min-height: 600px;
+    background-color: #ffa500;
+}
+
+footer {
+    background-color: #808080;
+    height: 92px;
+}
+
+.clear {
+    clear: both;
+}

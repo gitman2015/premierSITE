@@ -718,6 +718,67 @@ iframe[allowfullscreen] {
     text-align: center;
 }
 
+/* page des zonings  */
+#zoning-1 {
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+#zoning-1 header {
+    height: 70px;
+    background-color: #F7F39A;
+}
+
+#zoning-1 aside {
+    height: 525px;
+    width: 20%;
+    float: left;
+    background-color: #A3DE83;
+}
+
+#zoning-1 section {
+    height: 525px;
+    width: 80%;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+    background-color: #4DC40D;
+}
+
+#zoning-2 {
+    width: 800px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+#zoning-2 header {
+    height: 70px;
+    background-color: #800080;
+}
+
+#zoning-2 aside {
+    height: 525px;
+    width: 20%;
+    float: left;
+    background-color: #a6d6c3;
+}
+
+#zoning-2 section {
+    height: 525px;
+    width: 60%;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+    background-color: #ffd6d6;
+}
+
+
+
 /* la classe clear pour rétablir le flux */
 .clear {
     clear: both;

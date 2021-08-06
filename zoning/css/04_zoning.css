@@ -1,0 +1,57 @@
+
+main {
+    width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(146, 26, 116);
+    text-align: center;
+    color: white;
+}
+
+#aside_gauche {
+    float: left;
+    width: 200px;
+    min-height: 400px;
+    background-color: rgb(111, 199, 29);
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+
+#aside_droite {
+    float: right;
+    width: 200px;
+    min-height: 400px;
+     background-color: rgb(111, 199, 29);
+     text-align: center;
+    /* box-sizing: border-box; */
+}
+
+section {
+    float: left;
+    width: 800px;
+    /* padding-left: 10px; */
+    /* border-left: 10px solid rgb(22, 77, 150); */
+    min-height: 400px;
+    background-color: rgb(226, 205, 12);
+    text-align: center;
+    /* box-sizing: border-box; */
+}
+
+.clear {
+    clear: both;
+}
+
+/* reset des marges du p car par défaut le p vient avec une marge haute et basse de 16px  */
+footer p {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+}
