@@ -777,7 +777,49 @@ iframe[allowfullscreen] {
     background-color: #ffd6d6;
 }
 
+/* zoning 3 */
+#zoning-3 {
+    /* margin: 0% 10% 0% 10%; */
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    /* background-color: #fff; */
+}
 
+
+#aside_gauche {
+    float: left;
+    width: 50%;
+    background-color: #afeeee;
+    min-height: 400px;
+}
+
+#aside_droite {
+    float: left;
+    width: 50%;
+    background-color: #ffc0cb;
+    min-height: 400px;
+}
+
+#paragraphe_bas {
+    background-color: #ffdab9;
+    height: 25px;
+}
+
+#footer_zoning_3 {
+    background-color: #90ee90;
+    height: 60px;
+    color:black;
+}
+
+/* Tous les p sauf les p qui sont dans le footer  */
+/* p:not(footer>p) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+
+/* fin zoning 3  */
 
 /* la classe clear pour rétablir le flux */
 .clear {

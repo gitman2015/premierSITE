@@ -1,0 +1,29 @@
+  body {
+      margin: 10px;
+      /* padding: 0px; */
+      background-color: #9acd32;
+      color: #fff;
+  }
+
+  .container {
+      display: grid;
+      height: 600px;
+      width: 600px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      column-gap: 7px;
+      row-gap: 7px;
+  }
+
+  .container>div {
+      padding: 20px;
+      background-color: lightcoral;
+      border-radius: 10% 5% 40% 0%;
+      color: #fff;
+      border: 3px solid white;
+      text-align: center;
+    }
+    
+    .container>div:nth-child(odd) {
+      background-color: pink;
+  }

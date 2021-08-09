@@ -1,0 +1,50 @@
+/* 6eme zoning  */
+
+body {
+    color: black;
+    text-align: center;
+    font-size: 1.1em;
+    background-image: url(../../img/concrete-texture.png);
+}
+
+main {
+    /* margin: 0% 10% 0% 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: #fff; */
+}
+
+
+#aside_gauche {
+    float: left;
+    width: 50%;
+    background-color: #afeeee;
+    min-height: 400px;
+}
+
+#aside_droite {
+    float: left;
+    width: 50%;
+    background-color: #ffc0cb;
+    min-height: 400px;
+}
+
+#paragraphe_bas {
+    background-color: #ffdab9;
+    height: 25px;
+}
+
+footer {
+    background-color: #90ee90;
+    height: 60px;
+}
+
+/* Tous les p sauf les p qui sont dans le footer  */
+p:not(footer>p) {
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}

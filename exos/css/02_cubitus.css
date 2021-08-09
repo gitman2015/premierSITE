@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    color: #fff;
+}
+
+.violet {
+    background-color: #7a43e0;
+}
+
+.vert {
+    background-color: #43e07a;
+}
+
+.c1,
+.c2 {
+    /* height: 200px;
+    width: 200px;
+    margin: 5px;
+    float:left;
+
+    border-radius:10% 5% 40% 0%;
+
+    border: 1px solid #fff;
+    text-align: center; */
+
+    height: 10em;
+    width: 10em;
+    float: left;
+    margin: 0.2em;
+
+    border: 0.2em solid #000;
+    text-align: center;
+    border-radius: 30%;
+
+}
+
+.c1 p {
+    width:50%;
+}
+/* 
+.c1 {
+    text-transform: capitalize;
+} */
+
+.clear {
+    clear: both;
+}
