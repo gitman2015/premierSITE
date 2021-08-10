@@ -1,0 +1,63 @@
+body {
+    background-color: #eee8aa;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1,p {
+    margin: 0 auto;
+}
+
+#zoning-7 {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: orangered;
+}
+
+#zoning-7 header {
+    background-color: #40a497;
+    height: 80px;
+}
+
+#zoning-7 nav {
+    height: 30px;
+    background-color: #9a40a4;
+}
+
+#zoning-7 section {
+    height: 600px;
+    margin: 20px;
+    background-color: pink;
+}
+
+.a, .b, .c, .d {
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.a {
+    background-color: #32a7a0;
+}
+
+.b {
+    background-color: #d69f1b;
+}
+
+.c {
+    background-color: #b1b2d8;
+}
+
+.d {
+    background-color: #1217f2;
+}
+
+footer {
+    background-color: #40a497;
+    height: 60px;
+}
+
+.clear {
+    clear: both;
+}

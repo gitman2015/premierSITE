@@ -813,6 +813,48 @@ iframe[allowfullscreen] {
     color:black;
 }
 
+/* début zoning 4*/
+#main-zoning-4 {
+
+}
+
+#header-zoning-4 {
+
+}
+
+#nav-zoning-4 {
+
+}
+
+#zone-principale-zoning-4 {
+
+}
+
+#zone-a-zoning-4 {
+
+}
+
+#zone-b-zoning-4 {
+
+}
+
+#zone-c-zoning-4 {
+
+}
+
+#zone-d-zoning-4 {
+
+}
+
+#footer-zoning-4 {
+    
+}
+
+
+
+
+/* fin zoning */
+
 /* Tous les p sauf les p qui sont dans le footer  */
 /* p:not(footer>p) {
     padding-top: 10px;
