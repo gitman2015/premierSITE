@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07_tableaux</title>
+
+    <style>
+        body {
+            background-color: oldlace;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 80%;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* table th{
+            border:1px solid border solid;
+        } */
+
+        table, td {
+            border: 1px solid salmon;
+        }
+
+        table.adresses {
+            margin: auto;
+            width: 80%;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+
+        table.adresses, .adresses td {
+            border: 1px solid salmon;
+        }
+
+        .adresses caption {
+            background-color: lightblue;
+            height: 60px;
+            line-height: 60px;
+
+            border-top: 1px solid salmon;
+            border-left: 1px solid salmon;
+            border-right: 1px solid salmon;
+
+            font-size: 1.5em;
+            color: #fff;
+        }
+
+        .adresses thead {
+            background-color: rgba(185, 17, 87, 0.993);
+            font-weight: bold;
+        }
+
+        .adresses td {
+            padding: 10px;
+        }
+
+        .adresses tr:nth-child(odd):not(:only-child){
+            background-color: darkgoldenrod;
+        }
+
+        .adresses tr:nth-child(even){
+            background-color: navy;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tableau HTML mes magasins préférés</h1>
+        </header>
+
+        <table class="adresses">
+            <caption>Adresses // fournisseurs</caption>
+            <thead>
+                <tr>
+                    <th>Cie</th>
+                    <th>Contacts</th>
+                    <th>Pays</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Le pain des amis</td>
+                    <td>Maria Duroc</td>
+                    <td>France</td>
+                </tr>
+                <tr>
+                    <td>Los vinos buenos</td>
+                    <td>José Santos</td>
+                    <td>Espagne</td>
+                </tr>
+                <tr>
+                    <td>Kangoroo and Cie</td>
+                    <td>Mike Mendel</td>
+                    <td>Australie</td>
+                </tr>
+                <tr>
+                    <td>Twinnings</td>
+                    <td>Helen Spike</td>
+                    <td>Royaume-Uni</td>
+                </tr>
+                <tr>
+                    <td>Cycles Laurent</td>
+                    <td>Pierre Laurent</td>
+                    <td>France</td>
+                </tr>
+                <tr>
+                    <td>Santini</td>
+                    <td>Jacomo Santini</td>
+                    <td>Italie</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>Un autre tableau <span>avec des balises th</span></h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>identifiant</td>
+                    <td>noms</td>
+                    <td>prenoms</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>n°1</td>
+                    <td>Chirac</td>
+                    <td>Jacques</td>
+                </tr>
+                <tr>
+                    <td>n°2</td>
+                    <td>Jospin</td>
+                    <td>Lionel</td>
+                </tr>
+                <tr>
+                    <td>n°3</td>
+                    <td>Mouse</td>
+                    <td>Mickey</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
