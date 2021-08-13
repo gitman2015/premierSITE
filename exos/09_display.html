@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,152 @@
     <title>Display</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+        body {
+            background-color: lightgrey;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+
+        main {
+            width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        section {
+            margin-top: 30px;
+            padding: 10px;
+            border: 1px solid green;
+        }
+
+        p {
+            width: 80%;
+            margin: auto;
+        }
+
+        a {
+            background-color: orange;
+            color: white;
+        }
+
+        a:hover {
+            background-color: cornflowerblue;
+        }
+
+        .darkblue {
+            background-color: darkblue;
+            color: white;
+        }
+
+        .darkolivegreen {
+            background-color: darkolivegreen;
+            color: yellow;
+        }
+
+        /* La classe .display-none */
+        .display-none {
+            display: none;
+        }
+
+        .display-inline {
+            display: inline;
+        }
+
+        /* prend toute la largeur du parent et fait un saut de ligne apres et avant */
+        .display-block {
+            display: block;
+        }
+
+        a.display-block {
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .display-inline-block {
+            display: inline-block;
+        }
+
+        a.display-inline-block {
+            height: 20px;
+            width: 100px;
+        }
+
 
     </style>
 </head>
+
 <body>
     <main>
-        <h1>Display</h1>
-        <section class="rose">
-            <h2>1/ Comportement normal de chez normal</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit officia dignissimos quisquam labore sunt harum, error non quas, deleniti odio inventore ab hic incidunt corrupti facere unde molestias deserunt nostrum.</p>
+        <h1>La propriété display</h1>
+        <!-- section 1 -->
+        <section class="darkblue">
+            <h2>1/ Display, comportement normal de chez normal !</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat accusantium architecto quis culpa
+                distinctio dolores voluptatem iste cum pariatur alias, quae error velit, corporis quasi placeat illum
+                perspiciatis expedita ipsa.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptatem dolor nisi. Beatae voluptate accusantium suscipit neque adipisci quibusdam, veritatis fugit a quis ut, ex obcaecati impedit doloribus reprehenderit dignissimos.</p>
+            <p>Et là je vais aller sur le site du journal <a href="https://www.lemonde.fr/">Le monde</a> qui est un
+                excellent journal du soir.</p>
+            <p>je rajoute un p</p>
+        </section>
+
+        <!-- section 2: l'élément n'est pas affiché -->
+        <section>
+            <h2>2/ Display none</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem deleniti, obcaecati, rerum
+                laudantium nemo eaque iste recusandae est ea ipsa qui laboriosam voluptatibus! Deserunt voluptates
+                facilis obcaecati? Soluta, magnam dolore?</p>
+
+            <p class="darkblue">Coucou les amis, un paragraphe !! Je rajoute un lien vers <a
+                    href="https://www.francemusique.fr/" class="display-none"> site de mon choix</a> et après ce lien je
+                rajoute encore du texte.</p>
+
+                <p>Je rajoute une phrase <span>  et j'ai la balise span </span></p>
+            
+        </section>
+
+        <!-- section 3 ; affiche un élément comme un élement en ligne, aucune propriété de largeur ni de hauteur n'auront d'effets -->
+        <section>
+            <h2>3/ Display inline</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam exercitationem magni eveniet
+                itaque repellendus ipsum labore ex enim rerum eos similique cumque modi, aliquam voluptatum veritatis
+                corporis numquam? Recusandae!</p>
+
+            <p class="display-inline darkolivegreen">Coucou les amis, un paragraphe !! Je rajoute un lien vers <a
+                    href="https://www.francemusique.fr/" class=""> site de mon choix</a> et après ce lien je rajoute
+                encore du texte.</p>
+        </section>
+
+        <!-- section 4 ; affiche un élément comme un block, il commence sur une nouvelle ligne et prend toute la largeur  -->
+        <section>
+            <h2>4/ Display block</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam exercitationem magni eveniet
+                itaque repellendus ipsum labore ex enim rerum eos similique cumque modi, aliquam voluptatum veritatis
+                corporis numquam? Recusandae!. Des mots  <strong class="display-block">en gras</strong>  </p>
+
+            <p class="">Coucou les amis, un paragraphe !! Je rajoute un lien vers <a
+                    href="https://www.francemusique.fr/" class="display-block"> site de mon choix</a> et après ce lien je rajoute
+                encore du texte.</p>
+
+        </section>
+
+        <!-- section 5 ; un élément est formaté comme un élément inline mais on peut lui donner des valeurs de hauteur et/ou de la largeur-->
+        <section>
+            <h2>5/ Display inline-block</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam exercitationem magni eveniet
+                itaque repellendus ipsum labore ex enim rerum eos similique cumque modi, aliquam voluptatum veritatis
+                corporis numquam? Recusandae!</p>
+
+            <p class="">Coucou les amis, un paragraphe !! Je rajoute un lien vers <a
+                    href="https://www.francemusique.fr/" class="display-inline-block"> site de mon choix</a> et après ce lien je rajoute
+                encore du texte.</p>
         </section>
     </main>
 </body>
+
 </html>
