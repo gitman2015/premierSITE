@@ -1,0 +1,71 @@
+@import url("../../css/reset.css");
+
+body {
+    font-family: Verdana, Geneva, Tahoma sans-serif;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.clear {
+    clear: both;
+}
+
+/* contenu principal  */
+
+main {
+    background-color: rgb(152,189,238);
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* en-tête */
+header {
+    height: 150px;
+}
+
+/* nav */
+nav {
+    background-color: rgb(191,191,219);
+    height: 100px;
+}
+
+/* section principale  */
+section {
+    background-color: rgb(235,205,210);
+    height: auto;
+}
+
+/* pied de page  */
+footer {
+    height: 80px;
+}
+
+/* Pour la galerie  */
+.galerie {
+    /* je calcule la largeur des images et pour centrer, je cherche les marges restantes et je divise par deux... ce qui donne ml 240px ou ml 20% */
+    margin-left: 20%;
+}
+
+/* la class qui englobe figure  */
+.photo {
+    float: left;
+    padding: 30px 10px;
+}
+
+figcaption {
+    position: relative;
+    bottom: 20px;
+
+    background-color: rgb(240,92,92);
+    opacity: 0.8;
+    /* background-color: #333; */
+    height: 30px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+
+}
+
+
